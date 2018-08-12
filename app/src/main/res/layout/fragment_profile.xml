@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bebbbb"
+    tools:context=".Fragment.ProfileFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="@dimen/padding_profile"
+        android:layout_marginBottom="5dp"
+        android:background="#ffff"
+        android:id="@+id/home"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/ic_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin_left_profile"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/frag_see_your_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_profile"
+        android:layout_marginBottom="@dimen/layout_marginBottom_profile"
+        android:background="#ffff"
+        android:layout_below="@+id/home"
+        android:id="@+id/friend"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/ic_people_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="@dimen/margin_left_profile"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+<!--//-->
+    <LinearLayout
+        android:padding="@dimen/padding_profile"
+        android:layout_marginBottom="@dimen/layout_marginBottom_profile"
+        android:background="#ffff"
+        android:layout_below="@+id/friend"
+        android:id="@+id/friend_request"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/ic_add_friend_black"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="@dimen/margin_left_profile"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Requesr Friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!--//-->
+    <LinearLayout
+       android:id="@+id/logout"
+        android:padding="@dimen/padding_profile"
+        android:layout_marginBottom="@dimen/layout_marginBottom_profile"
+        android:background="#ffff"
+        android:layout_below="@+id/friend_request"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/profile_logout"
+            android:background="@drawable/ic_exit_to_app_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="@dimen/margin_left_profile"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!--bottom-->
+    <LinearLayout
+        android:padding="@dimen/padding_profile"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+        android:layout_below="@+id/logout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/ic_info_outline_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="@dimen/margin_left_profile"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="About app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+
+
+</FrameLayout>

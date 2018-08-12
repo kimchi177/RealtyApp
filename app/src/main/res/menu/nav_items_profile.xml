@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_post_news"
+        android:icon="@drawable/ic_news"
+        android:title="@string/post" />
+    <item
+        android:id="@+id/nav_time_line"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/timeline" />
+    <item
+        android:id="@+id/nav_image_profile"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/image_profile" />
+</menu>

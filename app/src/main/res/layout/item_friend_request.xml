@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_imv_friend"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/noavarta" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_profile"
+        android:layout_marginRight="@dimen/margin_left_profile"
+        android:layout_marginTop="@dimen/margin_left_profile"
+        android:layout_toRightOf="@+id/item_imv_friend">
+
+        <TextView
+            android:id="@+id/item_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/item_txt_mutual"
+            android:layout_below="@+id/item_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mutual friends"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_below="@+id/item_txt_mutual"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+         <Button
+             android:id="@+id/item_btn_accept"
+             android:textAllCaps="false"
+             android:background="@color/colortextProA"
+             android:text="Accept"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/item_btn_delete"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

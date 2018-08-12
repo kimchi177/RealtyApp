@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colortextProA">#00A5ff</color>
+    <color name="colorPrimaryDark">#bcc4bd</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="coloryellow">#ffcf40</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="whiteTranspare">#80ffffff</color>
+    <color name="background_pro">#bebbbb</color>
+    <color name="edit_sex_background">#D6D7D7</color>
+    <color name="color_message">#4ae864</color>
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+    <color name="style_color_primary">#2d5d82</color>
+</resources>

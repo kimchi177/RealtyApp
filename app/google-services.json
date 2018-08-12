@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "526491963224",
+    "firebase_url": "https://realtysocial-d55ab.firebaseio.com",
+    "project_id": "realtysocial-d55ab",
+    "storage_bucket": "realtysocial-d55ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526491963224:android:24fc2d3f44d1bfc2",
+        "android_client_info": {
+          "package_name": "com.example.thu.realtysocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526491963224-ibolohrjjecb8hnv1t9pto7lnhlugjqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thu.realtysocial",
+            "certificate_hash": "377ae3752fe04bc08d79c2fdb956acae6a5c28c3"
+          }
+        },
+        {
+          "client_id": "526491963224-2li5u2ipc8hn8vkr31dgi5fq7glh46o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi7u-5xD4pgtz7FqrSTAnL24XuaNGAU5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526491963224-2li5u2ipc8hn8vkr31dgi5fq7glh46o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

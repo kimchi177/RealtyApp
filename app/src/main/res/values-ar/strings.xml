@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_login_text">Login</string>
+    <string name="txt_register">Register a new account</string>
+    <string name="progess_loading">Please wait...</string>
+    <string name="log_new_account">No account yet? Create one</string>
+
+    <!--//-->
+    <!--profile-->
+    <string name="frag_see_your_profile">Trang cá nhân</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#A9A9A9"
+    tools:context=".activity.ChatActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/chat_bar_layout"/>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/chat_recyc"
+    android:layout_below="@+id/chat_bar_layout"
+    android:layout_above="@+id/chat1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        <RelativeLayout
+            android:id="@+id/chat1"
+            android:background="#fff"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/message_imv_send"
+                android:layout_margin="@dimen/margin_left_profile"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_send_24dp"/>
+            <RelativeLayout
+                android:layout_toLeftOf="@+id/message_imv_send"
+                android:layout_margin="@dimen/margin_left_profile"
+                android:id="@+id/linear_ca_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/message_imv_camera"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_select_image"/>
+                <EditText
+                    android:id="@+id/meeage_txt_input"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/message_imv_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Write a message"
+                    android:inputType="textMultiLine" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+</RelativeLayout>
